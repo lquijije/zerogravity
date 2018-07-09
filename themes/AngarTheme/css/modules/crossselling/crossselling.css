@@ -1,0 +1,12 @@
+#crossselling_list ul.product_list.grid > li {
+text-align: center;
+}
+
+#crossselling_list ul.product_list.grid > li .product-container .product-image-container {
+margin-bottom: 13px;
+position: relative;
+}
+
+#crossselling_list ul.product_list.grid > li .product-container .comments_note .star_content {
+float: left;
+}

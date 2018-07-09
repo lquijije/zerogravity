@@ -1,0 +1,424 @@
+/*** ESSENTIAL STYLES ***/
+
+@media (min-width: 768px) {
+#block_top_menu {
+background: #2f2f2f;
+padding: 0;
+}
+}
+
+#block_top_menu {
+padding: 0;
+}
+
+.sf-contener {
+clear: both;
+float: left;
+width: 100%; 
+}
+
+.sf-menu,
+.sf-menu * {
+margin: 0;
+padding: 0;
+list-style: none; 
+}
+
+.sf-menu {
+position: relative;
+padding: 0;
+width: 100%;
+}
+
+
+
+.sf-menu ul {
+position: absolute;
+top: -999em;
+background: #fff; 
+}
+
+
+
+.sf-menu ul li {
+width: 100%; 
+}
+
+.sf-menu li:hover {
+visibility: inherit;
+/* fixes IE7 'sticky bug' */ 
+}
+
+@media (min-width: 768px) {
+.sf-menu > li:first-child {
+border-left: 1px solid #424242;
+}
+}
+
+.sf-menu > li {
+float: left;
+border-right: 1px solid #424242;
+}
+
+.sf-menu > li > a {
+display: block;
+padding: 12px 18px;
+color: #ffffff;
+font-weight: 600; 
+font-size: 14px;
+line-height: 20px;
+text-transform: uppercase;
+}
+
+.sf-menu > li > a.sf-with-ul:after{
+font-family: "FontAwesome";
+content: "\f078";
+font-size: 8px;
+line-height: 18px;
+position: absolute;
+margin-left: 4px;
+}
+
+.sf-menu > li.sfHover > a, .sf-menu > li > a:hover, .sf-menu > li.sfHoverForce > a {
+background: #1b558c;
+background: -moz-linear-gradient(top, #1b558c 0%, #1379d0 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1b558c), color-stop(100%,#1379d0));
+background: -webkit-linear-gradient(top, #1b558c 0%,#1379d0 100%);
+background: -o-linear-gradient(top, #1b558c 0%,#1379d0 100%);
+background: -ms-linear-gradient(top, #1b558c 0%,#1379d0 100%);
+background: linear-gradient(to bottom, #1b558c 0%,#1379d0 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b558c', endColorstr='#1379d0',GradientType=0 );
+
+border-bottom-color: #666666;
+color: #fff; 
+}
+
+.sf-menu li li li a {
+display: inline-block;
+position: relative;
+color: #777777;
+font-size: 13px;
+line-height: 16px;
+font-weight: bold;
+padding-bottom: 10px; 
+}
+
+.sf-menu li li li a:before {
+content: "\f105";
+display: inline-block;
+font-family: "FontAwesome";
+padding-right: 10px; 
+}
+
+.sf-menu li li li a:hover {
+color: #333; 
+}
+
+.sf-menu li ul {
+display: none;
+left: 0;
+top: 45px;
+/* match top ul list item height */
+z-index: 99;
+padding: 12px 0px 18px 0px;
+-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 13px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 13px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 13px; 
+}
+
+
+
+.sf-menu li li ul {
+position: static;
+/* AngarTheme
+display: block !important;
+opacity: 1 !important;
+*/
+background: none;
+-moz-box-shadow: transparent 0px 0px 0px;
+-webkit-box-shadow: transparent 0px 0px 0px;
+box-shadow: transparent 0px 0px 0px; 
+}
+
+.sf-menu li li li ul {
+padding: 0 0 0 20px; 
+}
+
+.sf-menu li li li ul {
+width: 220px; 
+}
+
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+top: -999em; 
+}
+
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+left: 200px;
+/* match ul width */
+top: 0; 
+}
+
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+top: -999em; 
+}
+
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+left: 200px;
+/* match ul width */
+top: 0; 
+}
+
+.sf-menu > li > ul {
+padding: 26px 30px 31px;
+width: 100%; 
+}
+
+.sf-menu > li > ul > li > a {
+text-transform: uppercase;
+font-weight: 600; 
+font-size: 14px;
+line-height: 20px;
+color: #000; 
+}
+
+.sf-menu > li > ul > li > a:hover {
+color: #515151; 
+}
+
+.sf-menu > li > ul > li {
+float: left;
+width: 20%;
+padding-right: 15px; 
+}
+
+.sf-menu > li > ul > li.category-thumbnail {
+width: 100% !important;
+float: none;
+clear: both;
+overflow: hidden;
+padding-right: 0; 
+}
+
+.sf-menu > li > ul > li.category-thumbnail > div {
+float: left;
+padding-left: 10px;
+width: 33.333%; 
+}
+
+.sf-menu > li > ul > li.category-thumbnail > div:first-child {
+padding-left: 0; 
+}
+
+.sf-menu > li > ul > li.category-thumbnail > div img {
+max-width: 100%;
+display: block; 
+}
+
+.cat-title {
+display: none; 
+}
+
+.sf-menu li.sf-search {
+border: none; 
+}
+
+.sf-menu li.sf-search input {
+display: inline;
+padding: 0 13px;
+height: 30px;
+line-height: 30px;
+background: #fff;
+margin: 13px 10px 0 0;
+font-size: 13px;
+color: #9c9b9b;
+border: 1px solid #d6d4d4; 
+}
+
+#block_top_menu .category-thumbnail {
+clear: both;
+width: 100%;
+float: none; 
+}
+
+#block_top_menu .category-thumbnail div {
+float: left;
+width: 33.33333%; 
+}
+
+#block_top_menu .category-thumbnail div img {
+max-width: 100%; 
+}
+
+#block_top_menu li.category-thumbnail {
+padding-right: 0; 
+}
+
+
+
+
+
+
+
+
+
+/* RWD */
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+
+.cat-title {
+display: block;
+font-weight: 600; 
+font-size: 16px;
+line-height: 22px;
+text-transform: uppercase;
+color: #fff;
+display: block;
+padding: 11px 10px;
+background: #2f2f2f;
+position: relative; 
+}
+
+.cat-title:hover {}
+
+.cat-title:after {
+display: block;
+font-family: "FontAwesome";
+content: "\f067";
+position: absolute;
+right: 15px;
+top: 12px;
+font-size: 20px;
+}
+
+.cat-title.active:after {
+content: "\f068"; 
+}
+
+
+.sf-menu {
+display: none;
+background: #fff!important;
+border: 1px solid #dddddd;
+border-bottom: 0;
+} 
+
+.sf-menu ul {
+position: relative; 
+} 
+
+.sf-menu li ul{
+top: 0;
+-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px;
+-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 6px;
+}
+
+.sf-menu > li > ul {
+padding: 12px 20px 10px;
+border-top: 1px solid #dddddd;
+}
+
+.sf-menu > li {
+float: none;
+position: relative;
+border-right: none; 
+border: 0;
+border-bottom: 1px solid #dddddd!important;
+}
+
+.sf-menu > li > a{
+border: 0;
+color: #000;
+text-shadow: 0px 0px 0px #fff;
+padding: 12px 18px 10px;
+}
+
+.sf-menu > li span {
+position: absolute;
+right: 0;
+top: 0;
+width: 46px;
+height: 42px;
+line-height: 46px;
+z-index: 2;
+text-align: center;
+}
+
+.sf-menu > li:hover span{
+color: #fff;
+}
+
+.sf-menu > li span:hover{
+color: #000;
+}
+
+.sf-menu > li span:after {
+font-family: "FontAwesome";
+content: "\f067";
+font-size: 20px; 
+}
+
+.sf-menu > li span.active:after {
+content: "\f068"; 
+} 
+
+.sf-menu > li > ul > li {
+width: 50%; 
+} 
+
+#block_top_menu li.category-thumbnail{
+display: none;
+}
+
+}
+
+@media (max-width: 479px) {
+
+.sf-menu > li > ul {
+padding: 6px 20px 4px;
+}
+
+.sf-menu > li > ul > li {
+padding: 4px 0;
+width: 100%;
+}
+ 
+.sf-menu > li > ul > li.category-thumbnail > div {
+width: 100%;
+padding-left: 0;
+padding-top: 10px;
+text-align: center; 
+} 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

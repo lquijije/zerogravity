@@ -1,0 +1,227 @@
+/******************************************************************************
+Home Page Slider
+*******************************************************************************/
+#homepage-slider {
+padding-left: 0;
+padding-right: 0;
+margin-bottom: 14px;
+max-width: 100%;
+max-height: 100%;
+overflow: hidden;
+position: relative;
+z-index: 1;
+float: left;
+}
+
+/*****************************************************************************
+BXSlider Styles
+********************************************************************************/ 
+@media (max-width: 767px) {
+#homepage-slider {
+width: 100%;
+max-width: 100%;
+}
+}
+
+#homepage-slider #angarslider {
+margin: 0 auto;
+padding: 0; 
+}
+
+#homepage-slider .angarslider-container {
+position: relative; 
+}
+
+#homepage-slider .angarslider-image {
+position: absolute;
+left: 0;
+top: 0; 
+}
+
+#homepage-slider .angarslider-description {
+position: absolute;
+left: 0;
+top: 0;
+padding: 50px 50px;
+cursor: pointer; 
+}
+
+#homepage-slider .angarslider-description h1,
+#homepage-slider .angarslider-description h2,
+#homepage-slider .angarslider-description h3,
+#homepage-slider .angarslider-description h4,
+#homepage-slider .angarslider-description h5,
+#homepage-slider .angarslider-description h6{
+color: #fff;
+margin-top: 0;
+margin-bottom: 14px;
+padding: 0; 
+}
+
+#homepage-slider .angarslider-description h1{
+font-size: 30px;
+line-height: 30px;
+}
+
+#homepage-slider .angarslider-description h2{
+font-size: 26px;
+line-height: 26px;
+}
+
+#homepage-slider .angarslider-description h3{
+font-size: 24px;
+line-height: 24px;
+}
+
+#homepage-slider .angarslider-description h4{
+font-size: 22px;
+line-height: 22px;
+}
+
+#homepage-slider .angarslider-description h5{
+font-size: 20px;
+line-height: 20px;
+}
+
+#homepage-slider .angarslider-description h6{
+font-size: 18px;
+line-height: 18px;
+}
+
+
+#homepage-slider .angarslider-description p {
+color: #fff;
+font-size: 14px;
+margin: 0;
+}
+
+#homepage-slider .angarslider-description button {
+margin-top: 20px;
+font-weight: bold;
+font-size: 12px;
+line-height: 10px;
+text-transform: uppercase;
+background: #eeeeee;
+border: 0;
+padding: 10px 14px;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+#homepage-slider .angarslider-description button:hover {
+color: #fff;
+background: #1378CF;
+}
+
+#homepage-slider .bx-wrapper a {
+display: block; 
+}
+
+#homepage-slider .bx-wrapper img {
+height: auto;
+margin: 0 auto;
+}
+
+#homepage-slider .bx-wrapper .bx-viewport {
+width: 100%;
+direction: ltr !important; 
+}
+
+#homepage-slider .bx-wrapper {
+margin: 0 auto!important;
+}
+
+/* Pager */
+#homepage-slider .bx-wrapper .bx-pager{
+padding-top: 0;
+bottom: 10px;
+}
+
+#homepage-slider .bx-wrapper .bx-pager .bx-pager-item{
+height: 20px;
+}
+
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a {
+background: #c9c8c8;
+width: 12px;
+height: 12px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+-o-transition: all 0.5s;
+-ms-transition: all 0.5s;
+transition: all 0.5s;
+margin: 0 5px;
+}
+
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a:hover,
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a.active{
+ background: #1378CF;
+}
+
+/* Arrows */
+#homepage-slider .bx-wrapper .bx-controls-direction a{
+opacity: 0;
+top: 50%;
+margin-top: -17px;
+height: 34px;
+width: 34px;
+text-align: center;
+background: rgba(255, 255, 255, 0.7);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+#homepage-slider .bx-wrapper .bx-controls-direction a:hover{
+background: #fff;
+}
+
+div#homepage-slider:hover .bx-wrapper .bx-controls-direction a{
+opacity: 1;
+}
+
+#homepage-slider .bx-wrapper .bx-controls-direction a:before{
+display: block;
+color: #19232d;
+font-size: 24px;
+padding: 0px;
+line-height: 34px;
+}
+
+#homepage-slider .bx-wrapper .bx-controls-direction a.bx-prev{
+left: -34px;
+}
+
+#homepage-slider:hover .bx-wrapper .bx-controls-direction a.bx-prev{
+left: 10px;
+}
+
+#homepage-slider .bx-wrapper .bx-controls-direction a.bx-next{
+right: -34px;
+}
+
+#homepage-slider:hover .bx-wrapper .bx-controls-direction a.bx-next {
+right: 10px;
+}
+
+#homepage-slider .bx-wrapper .bx-controls-direction a.bx-prev:before{
+content: "\f104";
+}
+
+#homepage-slider .bx-wrapper .bx-controls-direction a.bx-next:before{
+content: "\f105";
+}
+
+
+/* Loading slider img fix */
+#homepage-slider li:nth-child(n+2) {
+display: none;
+}
+
+#homepage-slider .bx-wrapper .bx-viewport li {
+display: block;
+}

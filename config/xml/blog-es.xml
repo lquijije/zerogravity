@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/es/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/es/blog/feed.xml</link>
+    <description></description>
+    <language>es</language>
+     <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>7 Mejores módulos de equivalencia de tallas para tu tienda PrestaShop</title>
+    <link>https://www.prestashop.com/es/blog/modulos-guia-equivalencia-tallas</link>
+    <description>¿Has pensado alguna vez en implementar una guía con equivalencia de tallas en tu tienda PrestaShop? Quizás ésta pueda ser una de las claves para reducir las devoluciones en tu web.</description>
+     <pubDate>Wed, 04 Jul 2018 12:52:49 +0200</pubDate>
+ <dc:creator>Ismael Ruiz</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-guia-equivalencia-tallas</guid>
+  </item>
+  <item>
+    <title>¿Todo listo para el siguiente paso? Abre tu empresa al extranjero</title>
+    <link>https://www.prestashop.com/es/blog/abrir-empresa-extranjero</link>
+    <description>En Europa, el comercio electrónico internacional crece un 30 % al año y en 2020 tendrá un volumen de 130 000 millones de euros.(1)</description>
+     <pubDate>Wed, 04 Jul 2018 10:45:00 +0200</pubDate>
+ <dc:creator>paypal</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/abrir-empresa-extranjero</guid>
+  </item>
+  <item>
+    <title>Estrategia de precios psicológicos ¿aún funciona en eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/la-psicologia-de-precios-y-descuentos-en-e-commerce</link>
+    <description>¿Utilizas ya la famosa estrategia de precios psicológicos para conseguir aumentar las ventas en tu eCommerce?</description>
+     <pubDate>Mon, 02 Jul 2018 14:25:50 +0200</pubDate>
+ <dc:creator>Mariela Quiroga</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/la-psicologia-de-precios-y-descuentos-en-e-commerce</guid>
+  </item>
+  <item>
+    <title>Redirección 301 ¿qué son y cómo se configuran en PrestaShop?</title>
+    <link>https://www.prestashop.com/es/blog/redireccion-301</link>
+    <description>Hacer una redirección 301 es una solución muy frecuente en un eCommerce, siempre que se mueven o eliminan URL&#039;s que ya no son de utilidad pero, ¿sabes qué son exactamente?</description>
+     <pubDate>Sun, 01 Jul 2018 19:22:58 +0200</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/redireccion-301</guid>
+  </item>
+  <item>
+    <title>7 Mejores plantillas para tu tienda de motos online en PrestaShop</title>
+    <link>https://www.prestashop.com/es/blog/plantillas-tienda-de-motos-online</link>
+    <description>¿Estás pensando en crear una tienda de motos online en PrestaShop y no sabes cómo ni por dónde empezar?</description>
+     <pubDate>Wed, 27 Jun 2018 13:12:01 +0200</pubDate>
+ <dc:creator>Ismael Ruiz</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/plantillas-tienda-de-motos-online</guid>
+  </item>
+  <item>
+    <title>¿Cómo hacer una Auditoría SEO en tu propia tienda online?</title>
+    <link>https://www.prestashop.com/es/blog/auditoria-seo</link>
+    <description>Realizar una auditoría SEO es un trabajo imprescindible para toda aquella empresa que tenga presencia en Internet y que busque mejorar su visibilidad orgánica.</description>
+     <pubDate>Mon, 25 Jun 2018 19:36:37 +0200</pubDate>
+ <dc:creator>Jose Manuel Peña</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/auditoria-seo</guid>
+  </item>
+  <item>
+    <title>¿Qué es un TPV virtual y cómo implementarlo en tu PrestaShop?</title>
+    <link>https://www.prestashop.com/es/blog/que-es-tpv-virtual-online</link>
+    <description>Si has pensando alguna vez en implementar un sistema online de pago en tu negocio, descubrir qué es un terminal o TPV virtual puede ser la solución que estabas buscando.</description>
+     <pubDate>Sat, 23 Jun 2018 19:02:51 +0200</pubDate>
+ <dc:creator>Mariela Quiroga</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/que-es-tpv-virtual-online</guid>
+  </item>
+  <item>
+    <title>Rich Snippets: cómo destacar en Google tus páginas de producto</title>
+    <link>https://www.prestashop.com/es/blog/anadir-rich-snippets-prestashop-cuales-son-las-ventajas</link>
+    <description>¿Conoces las ventajas que presentan los Rich Snippets y la visibilidad que pueden aportar estos fragmentos enriquecidos a tu tienda online?</description>
+     <pubDate>Fri, 22 Jun 2018 07:54:08 +0200</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/anadir-rich-snippets-prestashop-cuales-son-las-ventajas</guid>
+  </item>
+  <item>
+    <title>¿Qué es un Test A/B y cómo te ayuda en tu estrategia online?</title>
+    <link>https://www.prestashop.com/es/blog/test-a-b-que-es</link>
+    <description>¿Sabías que realizando &quot;test A/B&quot; de la evolución de tu negocio puedes intuir cómo pivotar y, por ello, mejorar tu estrategia actual?</description>
+     <pubDate>Tue, 19 Jun 2018 13:29:48 +0200</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/test-a-b-que-es</guid>
+  </item>
+  <item>
+    <title>¿Qué es Facebook Live y cómo usarlo en la Fan Page de tu eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/facebook-live</link>
+    <description>¿Conoces Facebook Live y todas las ventajas que pueden proporcionar a la estrategia social media de tu tienda online?</description>
+     <pubDate>Wed, 13 Jun 2018 18:53:55 +0200</pubDate>
+ <dc:creator>Vanesa García Barahona</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/facebook-live</guid>
+  </item>
+  </channel>
+</rss>

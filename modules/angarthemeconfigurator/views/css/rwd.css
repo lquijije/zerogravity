@@ -1,0 +1,335 @@
+@media (max-width: 1199px){
+
+.slider_boxed div#slider_row {max-width: 940px;}
+
+.footer-container #footer #social_block h4{display: none;}
+.footer-container #footer #social_block ul li{margin: 0 4px 8px;}
+
+}
+
+@media (min-width: 992px){
+
+/* Col width */
+div#center_column.col-sm-6 {padding: 0;}
+
+/* Product-list list */
+body ul.product_list.list > li .left-block{width: 24%;}
+body ul.product_list.list > li .center-block{width: 46%;}
+body ul.product_list.list > li .right-block{width: 30%;}
+body ul.product_list.list > li .right-block .right-block-content .content_price .price{margin-top: 4px; margin-bottom: 0;}
+
+}
+
+
+@media (max-width: 991px){
+
+/* Cart popup */
+#layer_cart .layer_cart_cart {
+padding: 21px 30px 80px 30px;
+}
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+.slider_boxed div#slider_row {max-width: 720px;}
+
+.shopping_cart > a:first-child span.ajax_cart_quantity,
+.shopping_cart > a:first-child span.ajax_cart_product_txt,
+.shopping_cart > a:first-child span.ajax_cart_product_txt_s,
+.shopping_cart > a:first-child span.ajax_cart_no_product {
+display: none;
+}
+
+/* Header */
+header .row #header_logo {padding-top: 16px;}
+#contact-link{display: block;}
+span.shop-phone.shop-email{display: none;}
+#currencies-block-top{clear: both;}
+
+/* Cmsinfo */
+#cmsinfo_block > div{width: 50%;}
+
+}
+
+@media (max-width: 767px) {
+
+/* Top display inline */
+header .nav nav{
+text-align: center;
+}
+
+.header_user_info,
+#contact_nav,
+#contact-link,
+.shop-phone,
+#currencies-block-top,
+#languages-block-top,
+.header_user_info span,
+.header_user_info a,
+.header_user_info span.welcome,
+.header_user_info a.logout{
+float: none;
+display: inline-block;
+}
+
+/* Contact */
+#contact-link{
+display: none;
+}
+
+/* Currencies and languages */
+#currencies-block-top, #languages-block-top{width: auto;}
+#currencies-block-top div.current .cur-label{display: inline-block;}
+#currencies-block-top ul li a {padding: 0 10px; text-align: left;}
+#languages-block-top .current img{margin: 3px 6px 3px 0px;}
+
+
+/* User info */
+.header_user_info{
+display: none;
+}
+
+/* Cart */
+#header .container{
+text-align: center;
+}
+
+#header .cart_container {
+width: auto;
+padding-top: 14px;
+padding-bottom: 4px;
+float: none;
+display: inline-block;
+}
+
+#header .shopping_cart {
+float: right;
+width: auto;
+display: inline-block;
+}
+
+a.account_cart_rwd {
+display: inline-block;
+}
+
+.cart_block .cart-prices .cart-prices-line {
+text-align: left;
+}
+
+/* Search */
+#search_block_top {
+width: 100%;
+padding-top: 6px;
+padding-bottom: 16px;
+}
+
+/* Logo */
+header .row #header_logo {
+padding-top: 14px;
+}
+
+/* Slider */
+div#slider_row {
+padding: 15px 15px 0;
+}
+
+.slider_boxed div#slider_row{
+margin-top: 0;
+}
+
+#angarbanners_top {
+padding: 0;
+}
+
+/* RWD left/right column */
+.block .title_block:after,
+.block h4:after {
+top: 0px;
+width: 32px;
+height: 32px;
+line-height: 32px;
+font-size: 20px;
+}
+
+/* Tabs */
+#home-page-tabs{
+margin-left: 0;
+}
+
+/* Cms info */
+#cmsinfo_block .wrap{min-height: auto; padding: 20px 20px 8px;}
+#cmsinfo_block ul li {padding-bottom: 14px;}
+
+/* Footer */
+.footer-container {padding-top: 10px;}
+.footer-container #footer .footer-block {margin-top: 4px;}
+.footer-container #footer h4{padding-bottom: 0px;}
+.footer-container #footer .bottom-footer div {text-align: center;}
+
+/* Newsletter */
+#footer #newsletter_block_left {
+width: 100%;
+border-top: 0;
+padding-top: 0;
+max-width: 580px;
+float: none;
+margin: 0 auto;
+}
+
+#footer #newsletter_block_left .block_content {
+position: relative;
+margin-bottom: 0;
+}
+
+#footer #newsletter_block_left .form-group .form-control {
+max-width: 350px!important;
+}
+
+#footer #newsletter_block_left .form-group .button-small {
+position: absolute;
+right: 0;
+top: 0;
+}
+
+/* Social */
+.footer-container #footer #social_block {
+width: 100%;
+padding: 10px 10px 2px;
+text-align: center;
+}
+
+.footer-container #footer #social_block ul li {
+float: none;
+}
+
+/* PRODUCT */
+#product_comments_block_tab div.comment .comment_details {
+padding: 10px 0 0;
+}
+
+/* AUTHENTICATION */
+#create-account_form,
+#login_form{
+min-height: auto;
+}
+
+}
+
+@media (max-width: 480px) {
+
+/* User info */
+.header_user_info{
+display: none;
+}
+
+/* Cart */
+#header .container{
+text-align: center;
+}
+
+#header .cart_container {
+width: auto;
+padding-top: 14px;
+padding-bottom: 4px;
+float: none;
+display: inline-block;
+}
+
+#header .shopping_cart {
+float: right;
+width: auto;
+display: inline-block;
+}
+
+a.account_cart_rwd {
+display: inline-block;
+}
+
+/* Search */
+#search_block_top {
+width: 100%;
+padding-top: 6px;
+padding-bottom: 16px;
+}
+
+/* Home tabs */
+#home-page-tabs > li{
+margin: 0;
+}
+
+/* Footer */
+#footer #newsletter_block_left h4{
+width: 100%;
+padding-top: 0;
+text-align: center;
+}
+
+#footer #newsletter_block_left .form-group .form-control{
+width: 70%;
+}
+
+#footer #newsletter_block_left .form-group .button-small {
+position: relative;
+width: 30%;
+}
+
+#footer #newsletter_block_left .form-group .button-small span {
+padding: 0;
+}
+
+#footer #newsletter_block_left .block_content {
+overflow: initial;
+clear: both;
+}
+
+.footer-container #footer #social_block{
+text-align: center;
+padding: 10px 0 2px;
+}
+
+.footer-container #footer #social_block ul li{
+float: none;
+margin: 0 4px 8px;
+}
+
+.footer-container #footer .bottom-footer div{
+text-align: center;
+}
+
+/* Cart popup */
+#layer_cart .layer_cart_product .product-image-container {
+margin: 0 auto;
+}
+
+#layer_cart .layer_cart_product .layer_cart_product_info {
+padding: 10px 0 0 0;
+}
+
+#layer_cart .layer_cart_product {
+padding: 30px 30px 10px;
+}
+
+#layer_cart .layer_cart_cart {
+padding: 21px 30px 120px 30px;
+}
+
+}
+
+@media (max-width: 460px) {
+
+#contact-link a, .shop-phone{padding: 9px 2px 7px;}
+span.shop-phone_text{display: none;}
+
+}
+
+@media (max-width: 360px) {
+
+.shopping_cart > a:first-child span.ajax_cart_quantity,
+.shopping_cart > a:first-child span.ajax_cart_product_txt,
+.shopping_cart > a:first-child span.ajax_cart_product_txt_s,
+.shopping_cart > a:first-child span.ajax_cart_no_product {
+display: none;
+}
+
+}

@@ -1,0 +1,211 @@
+<?php /*%%SmartyHeaderCode:18500238355ada2432c4fc30-41695846%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '15bf18b81f613f6b1994fc01b7d4bfb2727d3dca' => 
+    array (
+      0 => '/var/www/html/themes/AngarTheme/modules/productscategory/productscategory.tpl',
+      1 => 1523900221,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '18500238355ada2432c4fc30-41695846',
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5af5d538db92a6_52618388',
+  'has_nocache_code' => false,
+  'cache_lifetime' => 31536000,
+),true); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5af5d538db92a6_52618388')) {function content_5af5d538db92a6_52618388($_smarty_tpl) {?>
+<script>
+
+$(document).ready(function() {
+if (!!$.prototype.bxSlider)
+	$('#bx_productscategory').bxSlider({
+		minSlides: 1,
+		maxSlides: 6,
+		slideWidth: 296,
+		pager: false,
+		nextSelector: '#next_productcat',
+		prevSelector: '#prev_productcat',
+		nextText: '>',
+		prevText: '<',
+		moveSlides:1,
+		infiniteLoop:false,
+		hideControlOnEnd: true
+	});
+});
+
+</script>
+
+<section class="page-product-box blockproductscategory">
+	<h3 class="productscategory_h3 page-product-heading">
+		<span>
+					3 otros productos en la misma categoría:
+				</span>
+		<div id="next_productcat" class="slider-btn"></div>
+		<div id="prev_productcat" class="slider-btn"></div>
+	</h3>
+	<div id="productscategory_list" class="clearfix">
+
+			<ul id="bx_productscategory" class="product_list grid row">
+									<li class="col-xs-12 col-sm-4 col-md-4">
+
+						<div class="product-container">
+
+							<div class="product-image-container">
+								<a href="http://200.93.198.236:8038/index.php?id_product=20&controller=product" class="product-image product_image" title="Monge Cat Indoor 1.5 Kg">
+									<img class="replace-2x img-responsive" src="http://200.93.198.236:8038/img/p/3/6/36-home_default.jpg" alt="Monge Cat Indoor 1.5 Kg" />
+								</a>
+
+																	<a class="new-box" href="http://200.93.198.236:8038/index.php?id_product=20&controller=product">
+										<span class="new-label">Nuevo</span>
+									</a>
+								
+								
+								
+							</div>
+
+							<div class="right-block">
+
+								<h5 itemprop="name">
+									<a class="product-name" href="http://200.93.198.236:8038/index.php?id_product=20&amp;controller=product" title="Monge Cat Indoor 1.5 Kg">
+										Monge Cat Indoor 1.5 Kg
+									</a>
+								</h5>
+
+								<div class="hook-reviews">
+									
+								</div>
+
+								<p class="product-desc" itemprop="description">
+									Alimento completo para gatos sabor a pollo con Vitaminas A-D3-E
+								</p>
+
+								<div class="content_price">
+																			<span class="price product-price"></span>
+																	</div>
+
+								<div class="button-container">
+																			<a class="button ajax_add_to_cart_button btn btn-default" href="http://200.93.198.236:8038/index.php?controller=cart&amp;qty=1&amp;id_product=20&amp;token=8e182e8212211fc4ba446b31de4f374c&amp;add=" data-id-product="20" title="Añadir al carrito">
+											<span>Añadir al carrito</span>
+										</a>
+																		<a class="button lnk_view btn btn-default" href="http://200.93.198.236:8038/index.php?id_product=20&amp;controller=product" title="Más">
+										<span>Más</span>
+									</a>
+								</div>
+
+							</div>
+
+						</div>
+
+					</li>
+
+									<li class="col-xs-12 col-sm-4 col-md-4">
+
+						<div class="product-container">
+
+							<div class="product-image-container">
+								<a href="http://200.93.198.236:8038/index.php?id_product=21&controller=product" class="product-image product_image" title="Simba Cat Croquettes with Beef 2 Kg">
+									<img class="replace-2x img-responsive" src="http://200.93.198.236:8038/img/p/3/7/37-home_default.jpg" alt="Simba Cat Croquettes with Beef 2 Kg" />
+								</a>
+
+																	<a class="new-box" href="http://200.93.198.236:8038/index.php?id_product=21&controller=product">
+										<span class="new-label">Nuevo</span>
+									</a>
+								
+								
+								
+							</div>
+
+							<div class="right-block">
+
+								<h5 itemprop="name">
+									<a class="product-name" href="http://200.93.198.236:8038/index.php?id_product=21&amp;controller=product" title="Simba Cat Croquettes with Beef 2 Kg">
+										Simba Cat Croquettes with Beef 2 Kg
+									</a>
+								</h5>
+
+								<div class="hook-reviews">
+									
+								</div>
+
+								<p class="product-desc" itemprop="description">
+									Alimentos completo para gatos sabor a carne con vitaminas A-D3-E. 100% Italiano
+								</p>
+
+								<div class="content_price">
+																			<span class="price product-price"></span>
+																	</div>
+
+								<div class="button-container">
+																			<a class="button ajax_add_to_cart_button btn btn-default" href="http://200.93.198.236:8038/index.php?controller=cart&amp;qty=1&amp;id_product=21&amp;token=8e182e8212211fc4ba446b31de4f374c&amp;add=" data-id-product="21" title="Añadir al carrito">
+											<span>Añadir al carrito</span>
+										</a>
+																		<a class="button lnk_view btn btn-default" href="http://200.93.198.236:8038/index.php?id_product=21&amp;controller=product" title="Más">
+										<span>Más</span>
+									</a>
+								</div>
+
+							</div>
+
+						</div>
+
+					</li>
+
+									<li class="col-xs-12 col-sm-4 col-md-4">
+
+						<div class="product-container">
+
+							<div class="product-image-container">
+								<a href="http://200.93.198.236:8038/index.php?id_product=23&controller=product" class="product-image product_image" title="Simba Cat Wet Pouch with Meat and Peas">
+									<img class="replace-2x img-responsive" src="http://200.93.198.236:8038/img/p/3/9/39-home_default.jpg" alt="Simba Cat Wet Pouch with Meat and Peas" />
+								</a>
+
+																	<a class="new-box" href="http://200.93.198.236:8038/index.php?id_product=23&controller=product">
+										<span class="new-label">Nuevo</span>
+									</a>
+								
+								
+								
+							</div>
+
+							<div class="right-block">
+
+								<h5 itemprop="name">
+									<a class="product-name" href="http://200.93.198.236:8038/index.php?id_product=23&amp;controller=product" title="Simba Cat Wet Pouch with Meat and Peas">
+										Simba Cat Wet Pouch with Meat and Peas
+									</a>
+								</h5>
+
+								<div class="hook-reviews">
+									
+								</div>
+
+								<p class="product-desc" itemprop="description">
+									Alimentos humedo para gatos, trozos de atún con salsa en sobres abre fácil.
+								</p>
+
+								<div class="content_price">
+																			<span class="price product-price"></span>
+																	</div>
+
+								<div class="button-container">
+																			<a class="button ajax_add_to_cart_button btn btn-default" href="http://200.93.198.236:8038/index.php?controller=cart&amp;qty=1&amp;id_product=23&amp;token=8e182e8212211fc4ba446b31de4f374c&amp;add=" data-id-product="23" title="Añadir al carrito">
+											<span>Añadir al carrito</span>
+										</a>
+																		<a class="button lnk_view btn btn-default" href="http://200.93.198.236:8038/index.php?id_product=23&amp;controller=product" title="Más">
+										<span>Más</span>
+									</a>
+								</div>
+
+							</div>
+
+						</div>
+
+					</li>
+
+							</ul>
+
+	</div>
+</section>
+<?php }} ?>
